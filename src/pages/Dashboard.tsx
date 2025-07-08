@@ -32,7 +32,7 @@ const Dashboard = () => {
       const [dateRange, setDateRange] = useState<DateRange>({
         start: null,
         end: null,
-        option: "past-6-months",
+        option: "all-time",
       });
     
       useEffect(() => {
@@ -201,7 +201,7 @@ const Dashboard = () => {
             startDate={dateRange.start}
             endDate={dateRange.end}
             onDateChange={handleDateRangeChange}
-            placeholder="Past 6 Months"
+            placeholder="All Time"
             currentOption={dateRange.option}
           />
           <StatusFilter

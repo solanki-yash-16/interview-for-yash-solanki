@@ -110,9 +110,17 @@ export interface LaunchDetails {
   payloads: Payload[];
 }
 
-export type FilterStatus = 'all' | 'upcoming' | 'successful' | 'failed';
+export type FilterStatus = "all" | "upcoming" | "successful" | "failed";
 
-export type DateFilterOption = 'past-week' | 'past-month' | 'past-3-months' | 'past-6-months' | 'past-year' | 'past-2-years' | 'custom-range';
+export type DateFilterOption =
+  | "all-time"
+  | "past-week"
+  | "past-month"
+  | "past-3-months"
+  | "past-6-months"
+  | "past-year"
+  | "past-2-years"
+  | "custom-range";
 
 export interface DateRange {
   start: Date | null;

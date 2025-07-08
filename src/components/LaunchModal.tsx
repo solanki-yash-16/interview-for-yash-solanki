@@ -107,7 +107,7 @@ export const LaunchModal: React.FC<LaunchModalProps> = ({
                 onClick={onClose}
                 className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
               >
-                <X className="w-5 h-5" />
+                <X className="w-5 h-5 cursor-pointer" />
               </button>
             </div>
 
