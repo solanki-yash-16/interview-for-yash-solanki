@@ -1,11 +1,7 @@
-import "./App.css";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
-  return (
-    <>
-      <div>SpaceX</div>
-    </>
-  );
+  return <Dashboard />;
 }
 
 export default App;
